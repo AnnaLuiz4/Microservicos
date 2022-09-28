@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Formulario Cadastro Produtos</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>Cadastrar produto</h2>
+      </div>
+
+      <form id="form" class="form">
+        <div class="form-control">
+          <label for="title">Titulo Produto</label>
+          <input type="text" id="title" placeholder="Nome do produto" />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas ca-check-circle"></i>
+          <small>Mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+          <label for="descricao">Descrição produto</label>
+          <input type="text" id="descricao" placeholder="Descrição do produto" />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas ca-check-circle"></i>
+          <small>Mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+          <label for="preco">Preço produto</label>
+          <input type="text" id="preco" placeholder="Preço do produto" />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas ca-check-circle"></i>
+          <small>Mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+          <label for="ativo">Ativo</label>
+          <input type="text" id="ativo" placeholder="Informe se está ativo"/>
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas ca-check-circle"></i>
+          <small>Mensagem de erro</small>
+        </div>
+
+        <button type:="submit">Cadastrar</button>
+      </form>
+    </div>
+
+    <script src="https://kit.fontawesome.com/111a91d422.js" crossorigin="anonymous"></script>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
